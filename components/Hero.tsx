@@ -1,6 +1,8 @@
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-slate-950 pt-32 text-white">
+    <section 
+    id="home"
+    className="relative overflow-hidden bg-slate-950 pt-32 text-white">
       {/* Decorative background */}
       <div className="absolute inset-0">
         <div className="absolute left-1/2 top-0 h-[500px] w-[700px] -translate-x-1/2 rounded-full bg-blue-600/20 blur-3xl" />

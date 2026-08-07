@@ -53,7 +53,10 @@ export default function Programs() {
     categories[0];
 
   return (
-    <section className="bg-slate-50 px-6 py-20 sm:py-24 lg:px-8">
+    <section 
+    id="programs"
+    className="bg-slate-50 px-6 py-20 sm:py-24 lg:px-8"
+    >
       <div className="mx-auto max-w-7xl">
         <SectionHeading
           eyebrow="Built for every stage"
